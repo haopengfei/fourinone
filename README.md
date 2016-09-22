@@ -1,6 +1,6 @@
 # Snapshot
 ========
-Thoughtworks 作业
+ThoughtWorks 作业
 --------
 
 
@@ -10,8 +10,8 @@ Thoughtworks 作业
 
 * 实体层（包括三个实体）： 
 ```
-    * class Point:定义了坐标的结构,包含两个变量<x,y><br>
-    * class Position:对Point的封装，包括上次的位置和当前的位置<br>
+    * class Point:定义了坐标的结构,包含两个变量<x,y>
+    * class Position:对Point的封装，包括上次的位置和当前的位置
     * class Snapshot:记录快照信息，包括（id, date, Map<String,Position> animalMap）
 ```
 * 数据访问（I/O）层：
