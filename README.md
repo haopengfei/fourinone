@@ -8,7 +8,7 @@ ThoughtWorks 作业
 
    * 注意：该项目的输入数据的格式是基于不同时刻的唯一id所代表的用例之间要空一行，事例文件在根路径 resource/input.txt
 
-#####整个项目共分为三个包
+#####整个项目共分为四个包
 
 * 实体层（包括三个实体）： 
 ```
@@ -27,6 +27,10 @@ ThoughtWorks 作业
     * private static String validate(List<Snapshot> snapshots, String id, List<String> names)：验证传入的输入数
 据内容是否前后矛盾
     * public static String getSnapShot(String historyData, String id)：处理函数，负责获取动物的分布快照
+```
+* 单元测试层:
+```
+    * SnapshotTest：对每个接口进行测试（每个方法的测试是基于resource/input.txt文件）
 ```
     
 ###测试
